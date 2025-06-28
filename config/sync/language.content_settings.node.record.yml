@@ -1,0 +1,11 @@
+uuid: cadb1a31-37f0-494e-afe9-37d9abd3c3fa
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.record
+id: node.record
+target_entity_type_id: node
+target_bundle: record
+default_langcode: site_default
+language_alterable: false

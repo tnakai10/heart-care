@@ -1,0 +1,17 @@
+uuid: 33bb633f-3df0-48d4-af2e-4fe714e69488
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 記録
+type: record
+description: ユーザー入力データ
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
