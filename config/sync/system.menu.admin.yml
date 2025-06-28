@@ -1,0 +1,10 @@
+uuid: 39be9a11-d401-4431-b4aa-c8ac4c1a33e4
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: 管理
+description: 管理タスクのリンク
+locked: true

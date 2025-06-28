@@ -1,0 +1,13 @@
+uuid: 0bb56abe-5817-4151-967e-107c9bf0370a
+langcode: ja
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: DyypzTfThX10FFQw-399qPfEbLLyrhXgQrKPVsmAoJ4
+id: user_block_user_action
+label: 選択されたユーザーをブロック
+type: user
+plugin: user_block_user_action
+configuration: {  }
