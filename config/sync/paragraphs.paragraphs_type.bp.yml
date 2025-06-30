@@ -1,0 +1,10 @@
+uuid: 0d403917-7747-40e2-91be-dbb19eec9853
+langcode: ja
+status: true
+dependencies: {  }
+id: bp
+label: 血圧
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

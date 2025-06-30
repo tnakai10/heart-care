@@ -1,0 +1,21 @@
+uuid: 1c485dc6-ac43-4716-a685-5059ff0dc404
+langcode: ja
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_bp_record
+field_name: field_bp_record
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

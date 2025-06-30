@@ -1,0 +1,30 @@
+uuid: fe6cac82-e5fe-4711-af97-6b67044047b8
+langcode: ja
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_bp_timing
+field_name: field_bp_timing
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: morning
+      label: 朝
+    -
+      value: afternoon
+      label: 昼
+    -
+      value: evening
+      label: 晩
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

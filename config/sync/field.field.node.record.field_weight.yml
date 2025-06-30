@@ -1,0 +1,23 @@
+uuid: 01a43e0d-bda4-41dc-929e-fe9e4513735a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.record
+id: node.record.field_weight
+field_name: field_weight
+entity_type: node
+bundle: record
+label: 体重
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: kg
+field_type: decimal

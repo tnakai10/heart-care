@@ -1,0 +1,23 @@
+uuid: ae075200-3652-4f66-8594-e9a1daeafe82
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bp_diastolic
+    - paragraphs.paragraphs_type.bp
+id: paragraph.bp.field_bp_diastolic
+field_name: field_bp_diastolic
+entity_type: paragraph
+bundle: bp
+label: 拡張期血圧
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

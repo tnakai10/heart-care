@@ -1,0 +1,31 @@
+uuid: f4b8e23b-8f17-4ef6-ae29-5fa94cf8833f
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bp_record
+    - node.type.record
+    - paragraphs.paragraphs_type.bp
+  module:
+    - entity_reference_revisions
+id: node.record.field_bp_record
+field_name: field_bp_record
+entity_type: node
+bundle: record
+label: 血圧データ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      bp: bp
+    negate: 0
+    target_bundles_drag_drop:
+      bp:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

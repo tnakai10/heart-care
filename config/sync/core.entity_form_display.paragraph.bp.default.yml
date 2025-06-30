@@ -1,0 +1,37 @@
+uuid: ed877f84-aea3-41ba-b40b-abbeeeea1cb1
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bp.field_bp_diastolic
+    - field.field.paragraph.bp.field_bp_systolic
+    - field.field.paragraph.bp.field_bp_timing
+    - paragraphs.paragraphs_type.bp
+id: paragraph.bp.default
+targetEntityType: paragraph
+bundle: bp
+mode: default
+content:
+  field_bp_diastolic:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_bp_systolic:
+    type: number
+    weight: 0
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_bp_timing:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

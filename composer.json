@@ -10,6 +10,7 @@
         "drupal-composer/drupal-paranoia": "^1",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/gin": "^5.0",
         "drupal/paragraphs": "^1.19",
         "drush/drush": "^13.0",
         "oomphinc/composer-installers-extender": "^2.0",

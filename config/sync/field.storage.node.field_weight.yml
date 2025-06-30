@@ -1,0 +1,20 @@
+uuid: 44b654ba-c5d1-48a7-b99c-fee7366f5e9a
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_weight
+field_name: field_weight
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

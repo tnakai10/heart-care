@@ -1,0 +1,43 @@
+uuid: 4b2b0038-de6d-4cc1-ac8c-e230efc7ef4b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.record.field_bp_record
+    - field.field.node.record.field_weight
+    - node.type.record
+  module:
+    - entity_reference_revisions
+    - user
+id: node.record.default
+targetEntityType: node
+bundle: record
+mode: default
+content:
+  field_bp_record:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_weight:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
