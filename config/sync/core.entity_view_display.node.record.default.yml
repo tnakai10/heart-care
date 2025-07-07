@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.record.field_bp_record
-    - field.field.node.record.field_weight
     - node.type.record
   module:
     - entity_reference_revisions
@@ -22,17 +21,6 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 101
-    region: content
-  field_weight:
-    type: number_decimal
-    label: above
-    settings:
-      thousand_separator: ''
-      decimal_separator: .
-      scale: 2
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 102
     region: content
   links:
     settings: {  }

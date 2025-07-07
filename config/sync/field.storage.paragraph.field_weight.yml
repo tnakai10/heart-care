@@ -1,16 +1,16 @@
-uuid: 44b654ba-c5d1-48a7-b99c-fee7366f5e9a
+uuid: bb041895-a83e-4e23-9905-998090fbf30f
 langcode: ja
 status: true
 dependencies:
   module:
-    - node
-id: node.field_weight
+    - paragraphs
+id: paragraph.field_weight
 field_name: field_weight
-entity_type: node
+entity_type: paragraph
 type: decimal
 settings:
   precision: 10
-  scale: 2
+  scale: 1
 module: core
 locked: false
 cardinality: 1

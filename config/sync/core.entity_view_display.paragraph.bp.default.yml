@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.bp.field_bp_diastolic
     - field.field.paragraph.bp.field_bp_systolic
     - field.field.paragraph.bp.field_bp_timing
+    - field.field.paragraph.bp.field_weight
     - paragraphs.paragraphs_type.bp
   module:
     - options
@@ -38,5 +39,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_weight:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden: {  }

@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.record.field_bp_record
-    - field.field.node.record.field_weight
     - node.type.record
   module:
     - paragraphs
@@ -39,13 +38,6 @@ content:
         collapse_edit_all: collapse_edit_all
         convert: '0'
         duplicate: duplicate
-    third_party_settings: {  }
-  field_weight:
-    type: number
-    weight: 122
-    region: content
-    settings:
-      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select
