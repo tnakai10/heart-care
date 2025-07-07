@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.bp.field_bp_diastolic
     - field.field.paragraph.bp.field_bp_systolic
     - field.field.paragraph.bp.field_bp_timing
+    - field.field.paragraph.bp.field_breathing
     - field.field.paragraph.bp.field_mukumi
     - field.field.paragraph.bp.field_weight
     - paragraphs.paragraphs_type.bp
@@ -40,6 +41,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_breathing:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_mukumi:
     type: list_default

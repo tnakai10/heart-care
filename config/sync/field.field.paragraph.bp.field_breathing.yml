@@ -1,0 +1,21 @@
+uuid: d7e8082a-59e6-42bb-9aab-563c825facaf
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_breathing
+    - paragraphs.paragraphs_type.bp
+  module:
+    - options
+id: paragraph.bp.field_breathing
+field_name: field_breathing
+entity_type: paragraph
+bundle: bp
+label: 息苦しさ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

@@ -1,0 +1,30 @@
+uuid: 2e568501-20e6-4152-ab9d-4239f021909a
+langcode: ja
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_breathing
+field_name: field_breathing
+entity_type: paragraph
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 0
+      label: なし
+    -
+      value: 1
+      label: 少し息苦しさがある
+    -
+      value: 2
+      label: はっきりと息苦しい
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
