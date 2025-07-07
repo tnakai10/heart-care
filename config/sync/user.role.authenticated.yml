@@ -12,8 +12,8 @@ dependencies:
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
 id: authenticated
-label: 認証済みユーザー
-weight: 1
+label: 患者様
+weight: -9
 is_admin: false
 permissions:
   - 'access content'
