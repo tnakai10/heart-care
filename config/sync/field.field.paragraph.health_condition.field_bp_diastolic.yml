@@ -1,14 +1,14 @@
-uuid: ae075200-3652-4f66-8594-e9a1daeafe82
+uuid: 638d7147-61df-4123-b1e6-e616780a2e40
 langcode: ja
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_bp_diastolic
-    - paragraphs.paragraphs_type.bp
-id: paragraph.bp.field_bp_diastolic
+    - paragraphs.paragraphs_type.health_condition
+id: paragraph.health_condition.field_bp_diastolic
 field_name: field_bp_diastolic
 entity_type: paragraph
-bundle: bp
+bundle: health_condition
 label: 拡張期血圧
 description: ''
 required: false

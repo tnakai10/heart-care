@@ -3,7 +3,7 @@ langcode: ja
 status: true
 dependencies:
   config:
-    - field.field.node.record.field_bp_record
+    - field.field.node.record.field_health_condition
     - node.type.record
   module:
     - entity_reference_revisions
@@ -13,14 +13,14 @@ targetEntityType: node
 bundle: record
 mode: default
 content:
-  field_bp_record:
+  field_health_condition:
     type: entity_reference_revisions_entity_view
     label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 101
+    weight: 102
     region: content
   links:
     settings: {  }

@@ -1,14 +1,14 @@
-uuid: 1175d637-20e0-4798-bd14-c8d4850aeef8
+uuid: 64db14bf-0d9d-483b-b42d-aea6550e3746
 langcode: ja
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_bp_systolic
-    - paragraphs.paragraphs_type.bp
-id: paragraph.bp.field_bp_systolic
+    - paragraphs.paragraphs_type.health_condition
+id: paragraph.health_condition.field_bp_systolic
 field_name: field_bp_systolic
 entity_type: paragraph
-bundle: bp
+bundle: health_condition
 label: 収縮期血圧
 description: ''
 required: false

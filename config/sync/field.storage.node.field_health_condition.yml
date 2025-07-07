@@ -1,4 +1,4 @@
-uuid: 1c485dc6-ac43-4716-a685-5059ff0dc404
+uuid: 9326948e-0cff-4793-b28a-3b5bfa45f1d7
 langcode: ja
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_bp_record
-field_name: field_bp_record
+id: node.field_health_condition
+field_name: field_health_condition
 entity_type: node
 type: entity_reference_revisions
 settings:

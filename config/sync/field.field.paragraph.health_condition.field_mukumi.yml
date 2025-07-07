@@ -1,16 +1,16 @@
-uuid: e5b639a7-5b3c-4646-a1e0-a6f558099f73
+uuid: 02a338e5-36fc-4d52-8efd-c4f4faa58b4f
 langcode: ja
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_mukumi
-    - paragraphs.paragraphs_type.bp
+    - paragraphs.paragraphs_type.health_condition
   module:
     - options
-id: paragraph.bp.field_mukumi
+id: paragraph.health_condition.field_mukumi
 field_name: field_mukumi
 entity_type: paragraph
-bundle: bp
+bundle: health_condition
 label: むくみ
 description: ''
 required: false

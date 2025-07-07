@@ -1,0 +1,21 @@
+uuid: 0c27bebf-777a-475b-8143-70044c3e7982
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_timing
+    - paragraphs.paragraphs_type.health_condition
+  module:
+    - options
+id: paragraph.health_condition.field_timing
+field_name: field_timing
+entity_type: paragraph
+bundle: health_condition
+label: 測定タイミング
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

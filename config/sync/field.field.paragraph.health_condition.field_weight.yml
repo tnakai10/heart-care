@@ -1,14 +1,14 @@
-uuid: b8d305fa-fee9-457e-bf4f-279a3cf64301
+uuid: 2656844c-37f0-4ee3-be3b-5a0d011f967e
 langcode: ja
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_weight
-    - paragraphs.paragraphs_type.bp
-id: paragraph.bp.field_weight
+    - paragraphs.paragraphs_type.health_condition
+id: paragraph.health_condition.field_weight
 field_name: field_weight
 entity_type: paragraph
-bundle: bp
+bundle: health_condition
 label: 体重
 description: ''
 required: false

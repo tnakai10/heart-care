@@ -1,9 +1,9 @@
-uuid: 0d403917-7747-40e2-91be-dbb19eec9853
+uuid: 40643c14-d074-489a-8f1b-74504a5e1db6
 langcode: ja
 status: true
 dependencies: {  }
-id: bp
-label: 血圧
+id: health_condition
+label: 体調記録
 icon_uuid: null
 icon_default: null
 description: ''

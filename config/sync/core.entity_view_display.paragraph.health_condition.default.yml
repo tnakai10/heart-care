@@ -1,20 +1,20 @@
-uuid: b0bac586-3f4f-4e2c-94f7-4e01df9833e3
+uuid: cbb80e35-4106-4eb5-a8ff-cdbbaa1faabd
 langcode: ja
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bp.field_bp_diastolic
-    - field.field.paragraph.bp.field_bp_systolic
-    - field.field.paragraph.bp.field_bp_timing
-    - field.field.paragraph.bp.field_breathing
-    - field.field.paragraph.bp.field_mukumi
-    - field.field.paragraph.bp.field_weight
-    - paragraphs.paragraphs_type.bp
+    - field.field.paragraph.health_condition.field_bp_diastolic
+    - field.field.paragraph.health_condition.field_bp_systolic
+    - field.field.paragraph.health_condition.field_breathing
+    - field.field.paragraph.health_condition.field_mukumi
+    - field.field.paragraph.health_condition.field_timing
+    - field.field.paragraph.health_condition.field_weight
+    - paragraphs.paragraphs_type.health_condition
   module:
     - options
-id: paragraph.bp.default
+id: paragraph.health_condition.default
 targetEntityType: paragraph
-bundle: bp
+bundle: health_condition
 mode: default
 content:
   field_bp_diastolic:
@@ -35,13 +35,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_bp_timing:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
   field_breathing:
     type: list_default
     label: above
@@ -55,6 +48,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_timing:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_weight:
     type: number_decimal

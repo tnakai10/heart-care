@@ -1,16 +1,16 @@
-uuid: d7e8082a-59e6-42bb-9aab-563c825facaf
+uuid: 8649200c-9106-43f3-b73c-b97d94b271bc
 langcode: ja
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_breathing
-    - paragraphs.paragraphs_type.bp
+    - paragraphs.paragraphs_type.health_condition
   module:
     - options
-id: paragraph.bp.field_breathing
+id: paragraph.health_condition.field_breathing
 field_name: field_breathing
 entity_type: paragraph
-bundle: bp
+bundle: health_condition
 label: 息苦しさ
 description: ''
 required: false

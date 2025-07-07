@@ -1,25 +1,19 @@
-uuid: fe6cac82-e5fe-4711-af97-6b67044047b8
+uuid: 80281720-31de-4b13-b593-1b55b7f32ad8
 langcode: ja
 status: true
 dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_bp_timing
-field_name: field_bp_timing
+id: paragraph.field_timing
+field_name: field_timing
 entity_type: paragraph
-type: list_string
+type: list_integer
 settings:
   allowed_values:
     -
-      value: morning
-      label: 朝
-    -
-      value: afternoon
-      label: 昼
-    -
-      value: evening
-      label: 晩
+      value: 0
+      label: 朝食前
   allowed_values_function: ''
 module: options
 locked: false
