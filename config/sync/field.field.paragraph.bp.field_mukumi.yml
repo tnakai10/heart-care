@@ -1,0 +1,21 @@
+uuid: e5b639a7-5b3c-4646-a1e0-a6f558099f73
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mukumi
+    - paragraphs.paragraphs_type.bp
+  module:
+    - options
+id: paragraph.bp.field_mukumi
+field_name: field_mukumi
+entity_type: paragraph
+bundle: bp
+label: むくみ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
